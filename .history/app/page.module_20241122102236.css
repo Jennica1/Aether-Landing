@@ -53,7 +53,7 @@
   border-radius: 2.5px;
 }
 
-.smIcon {
+.sm-icon {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

@@ -35,8 +35,8 @@ export default function Home() {
           <ul className={styles.column}>
             <li className={styles.smIcon}> <Image src='/Fb.png' alt="facebook icon" width={25} height={25} />Facebook</li>
             <li className={styles.smIcon}> <Image src='/Ig.png' alt="facebook icon" width={25} height={25} />Instagram</li>
-            <li className={styles.smIcon}> <Image src='/linkIn.png' alt="facebook icon" width={25} height={25} />LinkedIn</li>
-            <li className={styles.smIcon}> <Image src='/x.png' alt="facebook icon" width={25} height={25} />Twitter</li>
+            <li className={styles.smIcon}> <Image src='/linkIn.png' alt="facebook icon" width={30} height={30} />LinkedIn</li>
+            <li className={styles.smIcon}> <Image src='/x.png' alt="facebook icon" width={30} height={30} />Twitter</li>
           </ul>
         </div>
         <div className={styles["team-cont"]}>

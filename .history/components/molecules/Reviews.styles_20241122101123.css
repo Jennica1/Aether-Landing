@@ -3,6 +3,7 @@
     flex-direction: column;
     max-width: 750px;
     margin: 0 auto 90px auto;
+    
 
 }
 
@@ -24,7 +25,7 @@
 
 .image {
     border-radius: 10px;
-    margin: 10px 20px;
+    margin: 10px;
 }
 
 .name {

@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.row}>
           <ul className={styles.column}>
             <li>Blog</li>
-            <li>Work With Us</li>
+            <li>Developers</li>
             <li>Contact Us</li>
           </ul>
           <ul className={styles.column}>
@@ -33,10 +33,10 @@ export default function Home() {
             <li>Terms of Service</li>
           </ul>
           <ul className={styles.column}>
-            <li className={styles.smIcon}> <Image src='/Fb.png' alt="facebook icon" width={25} height={25} />Facebook</li>
-            <li className={styles.smIcon}> <Image src='/Ig.png' alt="facebook icon" width={25} height={25} />Instagram</li>
-            <li className={styles.smIcon}> <Image src='/linkIn.png' alt="facebook icon" width={25} height={25} />LinkedIn</li>
-            <li className={styles.smIcon}> <Image src='/x.png' alt="facebook icon" width={25} height={25} />Twitter</li>
+            <li> <Image src='/Fb.png' alt="facebook icon" width={30} heigh={30} className="sm-icon" />Facebook</li>
+            <li> <Image src='/Ig.png' alt="facebook icon" width={30} heigh={30} className="sm-icon" />Instagram</li>
+            <li> <Image src='/linkIn.png' alt="facebook icon" width={30} heigh={30} className="sm-icon" />LinkedIn</li>
+            <li> <Image src='/x.png' alt="facebook icon" width={30} heigh={30} className="sm-icon" />Twitter</li>
           </ul>
         </div>
         <div className={styles["team-cont"]}>

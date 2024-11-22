@@ -1,4 +1,4 @@
-import "./cardInfo.css";
+import "./CardInfo.css";
 
 export default function CardInfo() {
   return (
@@ -17,7 +17,6 @@ export default function CardInfo() {
           </header>
           <p>Everything in one place.  Access everything you need all in one app. </p>
         </div>
-
         <div className="box" style={{ backgroundColor: "black" }}>
           <header>
             <p>Autofill Feature:</p>

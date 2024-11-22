@@ -1,14 +1,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --gradient-start: #2B81A9; 
+  --gradient-end: #08415C; 
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {

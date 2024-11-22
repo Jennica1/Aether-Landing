@@ -19,15 +19,28 @@ export default function Home() {
         <Team />
       </main>
       <footer className={styles.footer}>
-        <div>
-          <p>Blog Developers Contact Us</p>
+        <div className={styles.row}>
+          <ul className={styles.column}>
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul className={styles.column}>
+            <li>About Aether</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+          </ul>
+          <ul className={styles.column}>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
+          </ul>
         </div>
-        <div>
-          <p>About Aether Privacy Policy Terms of Service</p>
-        </div>
-
-        <div>Facebook Instagram LinkIn Twitter</div>
-      </footer>
+        <div className={styles["team-cont"]}>
+    <p>© Designed and developed by Aether team _ 2024</p>
+  </div>      
+  </footer>
     </div>
   );
 }

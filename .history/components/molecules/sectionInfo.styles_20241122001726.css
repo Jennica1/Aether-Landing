@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    border: 5px solid #08415C;
+    border-radius: 30px;
+    max-width: 1234px;
+    height: 850px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+}
+
+

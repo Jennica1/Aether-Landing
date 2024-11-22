@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+    padding: 30px 0;
+}
+
+.start-btn {
+display: flex;
+width: 160px;
+height: 50px;
+padding: 15px 25px;
+justify-content: center;
+align-items: center;
+gap: 5px;
+flex-shrink: 0;
+border-radius: 20px;
+background: linear-gradient(114deg, #2B81A9 33.25%, #08415C 69.59%);
+
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+p {
+color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+  
+.textBox-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60;
+    align-items: center;
+}
+
+
+

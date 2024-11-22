@@ -1,0 +1,26 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #9FC3E5 -6.97%, #FFF 100%);
+}
+
+
+.main {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.footer {
+  background: #08415C;
+}
+
+.line {
+  width: 500px;
+  border: 5px solid rgba(55, 81, 114, 0.30);
+}
+
+
+

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Keeps everything in a column layout */
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+    border: 5px solid #08415C;
+    border-radius: 30px;
+    max-width: 1234px;
+    height: auto; /* Allow content to expand naturally */
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap for responsiveness */
+    justify-content: center; /* Center-align cards */
+    align-items: center;
+    padding: 20px;
+    gap: 20px; /* Space between each CardInfo */
+    margin: 10px 0;
+}
+
+

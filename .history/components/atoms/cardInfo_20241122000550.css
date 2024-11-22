@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+border: 5px solid #08415C;
+}
+
+.box{
+    width: 450px;
+    height: 250px;
+    flex-shrink: 0;
+}

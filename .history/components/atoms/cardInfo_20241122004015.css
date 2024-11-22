@@ -1,0 +1,37 @@
+.box {
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+    background: linear-gradient(114deg, #196082 33.25%, #08415C 69.59%);
+    margin: 10px;
+    color: #ffffff; /* Ensure text is readable on black background */
+    padding: 20px;
+}
+
+/* Styling for headers */
+.heading {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Styling for the body text */
+.info-content {
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    width: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        max-width: 320px; /* Ensure boxes shrink on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+    }
+}
+
+
+

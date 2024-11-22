@@ -1,0 +1,68 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+}
+
+.box{
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: linear-gradient(114deg, #196082 33.25%, #08415C 69.59%);
+    margin: 10px;
+}/* Container for the boxes */
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+  }
+  
+  /* Box Styling */
+  .box {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: linear-gradient(114deg, #196082 33.25%, #08415C 69.59%);
+    margin: 10px;
+    color: #ffffff; /* Ensure text is readable on black background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Styling for headers */
+  .box header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the body text */
+  .box p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .box {
+      width: 100%;
+      max-width: 320px; /* Ensure boxes shrink on smaller screens */
+      height: auto; /* Allow height to adjust based on content */
+    }
+  }
+
+  
+

@@ -1,0 +1,23 @@
+.info-container {
+    display: flex;
+    border: 5px solid #08415C;
+    border-radius: 30px;
+    max-width: 1234px;
+    height: 850px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px 100px;
+}
+
+.box{
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: linear-gradient(114deg, #196082 33.25%, #08415C 69.59%);
+
+}

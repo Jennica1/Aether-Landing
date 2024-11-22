@@ -1,0 +1,15 @@
+
+
+.member-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1234px;
+    margin: 20px 100px;
+}
+
+
+
+
+

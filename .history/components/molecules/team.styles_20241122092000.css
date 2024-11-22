@@ -1,0 +1,31 @@
+
+
+.team-heading {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.member-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1234px;
+    margin: 20px 100px;
+    justify-content: center;
+}
+
+.team-name {
+    text-align: center;
+    width: 180px;
+    text-wrap: wrap;
+    font-weight: 300;
+}
+
+
+
+
+

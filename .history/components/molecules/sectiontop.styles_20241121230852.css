@@ -1,0 +1,24 @@
+
+
+
+.startBtn {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(114deg, #2B81A9 33.25%, #08415C 69.59%);
+    border: none;
+    
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+

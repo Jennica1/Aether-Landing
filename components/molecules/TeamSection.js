@@ -1,39 +1,56 @@
-import styles from './TeamSection.module.css';
+import'./TeamSection.styles.css';
 import Image from "next/image";
 
 
 export default function Team() {
-    const teamImages = [
-        "/placeholder1.png",
-        "/placeholder2.png",
-        "/placeholder3.png",
-        "/placeholder4.png",
-        "/placeholder5.png",
-        "/placeholder6.png",
-        "/placeholder7.png",
-        "/placeholder8.png",
-        "/placeholder9.png",
-    ];
-
-    return (
+    return(
         <>
-            <div className={styles["team-cont"]}>
-                <div className={styles["full-line"]}>
-                    <p className={styles["text"]}>Meet the team</p>
-                </div>
-                <div className={styles["photos"]}>
-                    {teamImages.map((image, index) => (
-                        <Image
-                            key={index}
-                            src={"/placeholder.png"}
-                            alt={`Team member ${index + 1}`}
-                            width={100}
-                            height={100}
-                        />
-                    ))}
-                </div>
+            <div className="team-container">
+                <p className="team-heading">Meet the team</p>
 
+                <div className="member-section">
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Travor Tan</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Parnell Tse</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Madi Tabon</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Jennica Sask</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Celine Wang</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Jonathan Santiagual</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Sandy Ly</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Kiana Amini</p>
+                    </div>
+                    <div className="team-member">
+                        <Image src='/photo-placeholder.png' alt="member's photo" width={100} height={100} className="team-photo" />
+                        <p className="team-name">Zalida Khan</p>
+                    </div>
+                </div>
             </div>
         </>
     )
 }
+
+
+
+

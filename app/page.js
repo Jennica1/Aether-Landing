@@ -13,9 +13,11 @@ export default function Home() {
       <Header />
       <main className={styles.main}>
         <SectionTop />
+        <div className={styles.line}></div>
         <Reviews />
         <Info />
         <CTA />
+        <div className={styles.line}></div>
         <Team />
       </main>
       <footer className={styles.footer}>

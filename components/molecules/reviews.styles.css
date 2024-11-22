@@ -1,0 +1,42 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0 300px 90px 300px;
+
+
+}
+
+.join {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.proof {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.image {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.name {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 120px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+

@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.row}>
           <ul className={styles.column}>
             <li>Blog</li>
-            <li>Work With Us</li>
+            <li>Work with us</li>
             <li>Contact Us</li>
           </ul>
           <ul className={styles.column}>

@@ -1,4 +1,4 @@
-import "./CardInfo.css";
+import "./cardInfo.css";
 
 export default function CardInfo() {
   return (

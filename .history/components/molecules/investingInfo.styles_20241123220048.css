@@ -1,0 +1,26 @@
+.infoBox {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.infoHeading {
+    font-family: Italiana;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(114deg, #196082 33.25%, #08415C 69.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.infoContent {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+

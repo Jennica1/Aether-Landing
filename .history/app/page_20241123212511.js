@@ -7,7 +7,7 @@ import Reviews from "@/components/molecules/Reviews";
 import Info from "@/components/molecules/SectionInfo";
 import CTA from "@/components/atoms/CTA";
 import Team from "@/components/molecules/TeamSection";
-import Footer from "@/components/molecules/footer";
+import Footer from "@/components/molecules/Footer";
 
 export default function Home() {
   return (

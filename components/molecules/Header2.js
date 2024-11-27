@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./header.style.css";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header2() {
   return (
     <>
       <div className="header">
@@ -19,7 +19,7 @@ export default function Header() {
           <p>
             <Link href="/investor">Work With Us</Link>
           </p>
-          <p>Contact Us</p>
+          <Link href="/">Products</Link>
         </div>
 
         <div className="btn-cont">

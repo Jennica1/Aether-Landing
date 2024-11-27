@@ -1,0 +1,152 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+.logo {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 60px;
+    background-color: transparent;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    flex: 2;
+    justify-content: flex-start;
+    min-width: 200px;
+    /* Prevents collapsing on smaller screens */
+}
+
+.nav-links p {
+    color: var(--foreground);
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links p:hover {
+    color: var(--gradient-end);
+}
+
+.btn-cont {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    /* Wrap buttons on smaller screens */
+}
+
+.btn-cont p {
+    color: var(--foreground);
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-cont p:hover {
+    color: var(--gradient-end);
+}
+
+.btn-cont button {
+    padding: 10px 20px;
+    background: linear-gradient(130deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    border: none;
+    border-radius: 14px;
+    color: var(--background);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-cont button:hover {
+    background: linear-gradient(130deg, #08415C 0%, #2B81A9 80%);
+    transform: scale(1.01);
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+    .header {
+        padding: 20px 80px;
+    }
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .btn-cont {
+        gap: 10px;
+    }
+
+    .logo {
+        max-width: 70px;
+        max-height: 50px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+
+    .logo {
+        max-width: 60px;
+        max-height: 45px;
+        margin-left: 0;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        /* Allow nav links to wrap */
+    }
+
+    .btn-cont {
+        gap: 10px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        flex-direction: row;
+        /* Maintain row direction */
+    }
+
+    .logo {
+        max-width: 50px;
+        max-height: 40px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Center nav links on very small screens */
+    }
+
+    .btn-cont {
+        gap: 8px;
+        justify-content: center;
+        /* Center buttons on very small screens */
+    }
+
+    .btn-cont button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}

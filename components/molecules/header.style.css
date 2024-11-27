@@ -4,6 +4,8 @@
     align-items: center;
     padding: 25px 120px;
     font-size: 1.2rem;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
 }
 
 .logo {
@@ -17,9 +19,10 @@
 .nav-links {
     display: flex;
     gap: 50px;
-    margin-left: 50px;
     flex: 2;
     justify-content: flex-start;
+    min-width: 200px;
+    /* Prevents collapsing on smaller screens */
 }
 
 .nav-links p {
@@ -38,6 +41,8 @@
     gap: 15px;
     align-items: center;
     margin-right: 20px;
+    flex-wrap: wrap;
+    /* Wrap buttons on smaller screens */
 }
 
 .btn-cont p {
@@ -92,10 +97,8 @@
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
     .header {
-        padding: 20px 40px;
+        padding: 15px 30px;
         font-size: 1rem;
-        flex-direction: column;
-        align-items: flex-start;
     }
 
     .logo {
@@ -105,23 +108,23 @@
     }
 
     .nav-links {
-        flex-direction: column;
         gap: 15px;
-        margin-left: 0;
+        flex-wrap: wrap;
+        /* Allow nav links to wrap */
     }
 
     .btn-cont {
-        flex-direction: column;
         gap: 10px;
-        margin-right: 0;
     }
 }
 
 /* For screens smaller than 480px */
 @media (max-width: 480px) {
     .header {
-        padding: 15px 20px;
+        padding: 10px 20px;
         font-size: 0.9rem;
+        flex-direction: row;
+        /* Maintain row direction */
     }
 
     .logo {
@@ -131,10 +134,15 @@
 
     .nav-links {
         gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Center nav links on very small screens */
     }
 
     .btn-cont {
         gap: 8px;
+        justify-content: center;
+        /* Center buttons on very small screens */
     }
 
     .btn-cont button {

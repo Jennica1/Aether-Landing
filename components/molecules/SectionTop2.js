@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./SectionTop2.module.css";
 
 export default function SectionTop2() {
@@ -12,27 +11,40 @@ export default function SectionTop2() {
                 Saving Caregiver's Time, so they can Focus on what Matters Most
               </p>
             </div>
-            <p>
-              With Aether, confusing documents
-              <br />
-              are a thing of the past with our AI auto-fill feature.
+            <p className={styles["words"]}>
+            At Aether, we’re committed to making care giving less about paperwork and more about people. 
+            Our app simplifies tasks so caregivers can focus on meaningful connections.
             </p>
-
-            <div className={styles["btn-cont"]}>
-              <button>Get Started</button>
-              <p>Learn More</p>
-              {/* <Image src="/arrowdown.png" alt="Learn More icon" width={15} height={10} /> */}
-            </div>
           </div>
         </div>
         <div className={styles["right"]}>
-          <Image
-            src="/Phone.png"
-            width={700}
-            height={450}
-            alt="phone"
-            priority
-          />
+          <div className={styles["form-container"]}>
+            <form className={styles["form"]}>
+              <div className={styles["name-fields"]}>
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  className={styles["input-field"]}
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  className={styles["input-field"]}
+                />
+              </div>
+              <input
+                type="email"
+                placeholder="Email"
+                className={styles["input-field"]}
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                className={styles["input-field"]}
+              />
+              <button className={styles["submit-btn"]}>Get Started</button>
+            </form>
+          </div>
         </div>
       </div>
     </>

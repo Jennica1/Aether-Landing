@@ -1,169 +1,150 @@
+/* Container styles to align text and form side-by-side */
 .main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;  /* Center the main container */
     align-items: center;
     padding: 0 60px;
     flex-wrap: wrap;
-    /* Ensures items wrap on smaller screens */
+    gap: 0;  /* No gap between items */
 }
 
-/* Left and Right sections */
-.left,
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Center the content within the left section */
+    padding: 0;  /* No padding */
+}
+
 .right {
     flex: 1;
-    padding: 0 20px;
-    /* Adjusted for smaller screens */
+    display: flex;
+    justify-content: center; /* Center form horizontally on smaller screens */
+    padding: 0;  /* No padding */
+    margin-right: 0;  /* No margin */
 }
 
 .left-content {
-    max-width: 500px;
+    max-width: 700px;
+    text-align: center; /* Center text content on smaller screens */
 }
 
 .left-content p {
-    margin: 0.2rem 0;
-    font-size: 1.3rem;
+    text-align: left;
 }
 
-/* Gradient text */
+.words {
+    font-size: 1.5rem;
+}
+
 .words-cont {
     display: flex;
     flex-direction: column;
-}
-
-.words-cont p {
     font-family: 'Italiana', serif;
     font-weight: normal;
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: transparent;
     background: linear-gradient(130deg, #196082 0%, #08415C 100%);
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: 0 4.24px 4.24px rgba(0, 0, 0, 0.3);
+    text-align: left;
 }
 
-/* Button container */
-.btn-cont {
+/* Form container with a box around it */
+.form-container {
+    border-radius: 12px;
+    padding: 25px;  /* Space inside the border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    max-width: 450px;  /* Prevent it from being too wide */
+    background: linear-gradient(260deg, #196082 0%, #08415C 100%);
+    margin-right: 0;  /* No margin for better centering */
+    width: 100%;  /* Adjust width for responsiveness */
+}
+
+/* Form container */
+.form {
     display: flex;
-    gap: 20px;
-    align-items: center;
-    margin: 3.5rem 0;
-    flex-wrap: wrap;
-    /* Allows buttons to wrap on smaller screens */
+    flex-direction: column;
+    gap: 15px;  /* Space between form fields */
 }
 
-.btn-cont button {
-    padding: 15px 25px;
-    background: linear-gradient(130deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+.name-fields {
+    display: flex;
+    gap: 10px;  /* Space between the inputs */
+    flex-wrap: nowrap;  /* Prevent wrapping */
+    justify-content: space-between; /* Distribute space evenly */
+}
+
+.name-fields .input-field {
+    flex: 1;  /* Ensure both inputs share equal space */
+    min-width: 0;  /* Prevent overflow issues */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.input-field {
+    padding: 16px;  /* Increase padding for larger input box */
+    font-size: 1.2rem;  /* Increase font size */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;  /* Light background */
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #196082;  /* Highlight border on focus */
+    outline: none;
+}
+
+.submit-btn {
+    background: linear-gradient(130deg, #196082 0%, #08415C 100%);
+    color: white;
+    padding: 14px;
     border: none;
-    border-radius: 14px;
-    color: var(--background);
+    border-radius: 8px;
     font-size: 1rem;
-    cursor: pointer;
     font-weight: bold;
-}
-
-.btn-cont button:hover {
-    background: linear-gradient(130deg, #08415C 0%, #2B81A9 80%);
-    transform: scale(1.01);
-}
-
-.btn-cont p {
-    color: var(--foreground);
-    margin: 0 1rem;
     cursor: pointer;
-    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.btn-cont p:hover {
-    color: var(--gradient-end);
-}
-
-.right img {
-    max-width: 100%;
+.submit-btn:hover {
+    background: linear-gradient(130deg, #08415C 0%, #2B81A9 80%);
+    transform: scale(1.02);  /* Slight zoom on hover */
 }
 
 /* Media Queries for Responsiveness */
-
-/* For screens smaller than 1024px */
 @media (max-width: 1024px) {
     .main-container {
-        flex-direction: column;
-        /* Stack elements vertically */
+        flex-direction: column;  /* Stack elements vertically */
         padding: 0 30px;
-        /* Reduce padding */
     }
 
-    .left,
-    .right {
+    .left, .right {
         padding: 20px 0;
-        /* Add vertical padding */
+        width: 100%;  /* Full width on smaller screens */
     }
 
-    .words-cont p {
-        font-size: 4rem;
-        /* Reduce font size for better fit */
+    .form-container {
+        max-width: 100%;  /* Full width for better mobile experience */
     }
 
-    .btn-cont {
-        justify-content: flex-start;
-        /* Keep buttons left-aligned */
-        gap: 15px;
-        /* Adjust spacing */
+    .words-cont {
+        font-size: 3.5rem;  /* Reduce font size for smaller screens */
+        text-align: center;  /* Center the text */
     }
 }
 
-/* For screens smaller than 768px */
 @media (max-width: 768px) {
-    .main-container {
-        padding: 0 15px;
-        /* Further reduce padding */
+    .name-fields {
+        flex-direction: column;  /* Stack first and last name fields vertically */
     }
 
-    .words-cont p {
-        font-size: 3rem;
-        /* Further reduce text size */
+    .form {
+        gap: 10px;  /* Reduce gap on smaller screens */
     }
 
-    .left-content p {
-        font-size: 1.1rem;
-        /* Smaller font for readability */
-    }
-
-    .btn-cont {
-        justify-content: flex-start;
-        /* Keep buttons left-aligned */
-        flex-direction: row;
-        /* Ensure buttons stay in a row */
-        flex-wrap: wrap;
-    }
-
-    .btn-cont button {
-        padding: 12px 20px;
-        /* Smaller buttons */
-        font-size: 0.9rem;
-    }
-}
-
-/* For screens smaller than 480px */
-@media (max-width: 480px) {
-    .words-cont p {
-        font-size: 2.5rem;
-        /* Optimize for very small screens */
-    }
-
-    .btn-cont {
-        gap: 10px;
-        /* Tighten spacing */
-        flex-direction: row;
-        /* Keep buttons in a row */
-    }
-
-    .btn-cont button {
-        padding: 10px 15px;
-        font-size: 0.8rem;
-    }
-
-    .left-content p {
-        font-size: 1rem;
+    .words-cont {
+        font-size: 2.5rem;  /* Further reduce font size for smaller screens */
     }
 }

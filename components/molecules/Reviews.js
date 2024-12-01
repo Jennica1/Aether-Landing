@@ -6,7 +6,7 @@ export default function Reviews() {
         <>
         <div className="review-container">
             <br/>
-            <p className="join">Join 30,000 happy caretakers who trust Aether</p>
+            <p className="join">Join other happy caretakers who trust Aether</p>
 
             <div className="proof">
                 <div className="people">

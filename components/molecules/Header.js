@@ -19,11 +19,11 @@ export default function Header() {
           <p>
             <Link href="/investor">Work With Us</Link>
           </p>
+          <p>About Us</p>
           <p>Contact Us</p>
         </div>
 
         <div className="btn-cont">
-          <p>Login</p>
           <button>Get Started</button>
         </div>
       </div>

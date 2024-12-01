@@ -13,17 +13,16 @@ export default function Header2() {
           height={100}
           alt=""
         />
-
         <div className="nav-links">
           <p>Blog</p>
           <p>
             <Link href="/investor">Work With Us</Link>
           </p>
           <Link href="/">Products</Link>
+          <p>About Us</p>
         </div>
 
         <div className="btn-cont">
-          <p>Login</p>
           <button>Get Started</button>
         </div>
       </div>

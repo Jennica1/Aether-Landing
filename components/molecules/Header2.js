@@ -12,7 +12,7 @@ export default function Header2() {
           width={100}
           height={100}
           alt=""
-        />git 
+        />
         <div className="nav-links">
           <p>Blog</p>
           <p>

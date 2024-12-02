@@ -11,11 +11,11 @@ export default function Info() {
       </div>
       <div className={styles.imageContainer}>
         <Image 
-          src="/section1.png"      // Path relative to the 'public' folder
+          src="/section1.png"      
           alt="Section Illustration" 
-          layout="responsive"     // Makes the image span the width of its container
-          width={100}             // Percentage width
-          height={30}             // Aspect ratio height (adjust as needed)
+          layout="responsive"    
+          width={100}            
+          height={30}             
         />
       </div>
     </div>

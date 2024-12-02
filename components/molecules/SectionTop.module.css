@@ -4,15 +4,15 @@
     align-items: center;
     padding: 0 60px;
     flex-wrap: wrap;
-    /* Ensures items wrap on smaller screens */
+   
 }
 
-/* Left and Right sections */
+
 .left,
 .right {
     flex: 1;
     padding: 0 20px;
-    /* Adjusted for smaller screens */
+   
 }
 
 .left-content {

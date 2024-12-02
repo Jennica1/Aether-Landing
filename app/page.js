@@ -15,8 +15,8 @@ export default function Home() {
       <main className={styles.main}>
         <SectionTop />
         <div className={styles.line}></div>
-        <Reviews />
         <Info />
+        <Reviews />
         <CTA />
         <div className={styles.line}></div>
         <Team />

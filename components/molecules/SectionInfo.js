@@ -11,7 +11,7 @@ export default function Info() {
       </div>
       <div className={styles.imageContainer}>
         <Image
-          src="/IG.png"
+          src="/section2.png"
           alt="Section Illustration"
           layout="responsive"
           width={100}

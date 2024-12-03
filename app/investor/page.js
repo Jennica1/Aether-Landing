@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import Header2 from "@/components/molecules/Header2";
 import SectionTop2 from "@/components/molecules/SectionTop2";
 import Reviews from "@/components/molecules/Reviews";
-import Info from "@/components/molecules/SectionInfo";
+import Info2 from "@/components/molecules/Sectioninfo2";
 import CTA from "@/components/atoms/CTA";
 import Team from "@/components/molecules/TeamSection";
 
@@ -16,7 +16,7 @@ export default function Investor() {
         <SectionTop2 />
         <div className={styles.line}></div>
         <Reviews />
-        <Info />
+        <Info2 />
         <CTA />
         <div className={styles.line}></div>
         <Team />

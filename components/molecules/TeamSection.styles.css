@@ -1,9 +1,9 @@
 .team-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
-    text-align: center; /* Center text for headings */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .team-heading {
@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     gap: 50px;
     max-width: 1234px;
-    margin: 20px auto; /* Auto margin for horizontal centering */
+    margin: 20px auto;
     justify-content: center;
 }
 
@@ -29,14 +29,15 @@
     flex-direction: column;
     justify-content: center;
     margin: 10px 20px;
-    align-items: center; /* Center the content inside the team member box */
+    align-items: center;
 }
 
 .team-name {
     text-align: center;
-    width: 100px;
-    font-weight: 300;
-    word-wrap: break-word; /* Fix issue with text wrapping */
+    width: max-content;
+    font-weight: bold;
+    word-wrap: break-word;
+    margin-bottom: 10px;
 }
 
 .team-photo {

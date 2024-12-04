@@ -63,32 +63,44 @@ h3 {
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     .value-section {
-        flex-direction: column; /* Stack items vertically */
-        text-align: center; /* Center-align text and image */
-        gap: 1rem; /* Increase the gap slightly for better readability */
+        flex-direction: column;
+        /* Stack items vertically */
+        text-align: center;
+        /* Center-align text and image */
+        gap: 1rem;
+        /* Increase the gap slightly for better readability */
     }
-  
+
     .text-content {
-        max-width: 100%; /* Full width for text content */
-        margin: 0 3rem; /* Increase margin to make the text container wider */
-        font-size: 0.9rem; /* Smaller text for mobile */
-        line-height: 1.6; /* Slightly increase line spacing for readability */
-        padding: 0; /* Remove padding to rely on margins */
+        max-width: 100%;
+        margin: 0 3rem;
+        margin-right: 10rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        padding: 0;
     }
-  
+
     .text-content h3 {
-        font-size: 1.1rem; /* Heading size for mobile */
-        margin-bottom: 1rem; /* Space below heading */
+        font-size: 1.1rem;
+        /* Heading size for mobile */
+        margin-bottom: 1rem;
+        /* Space below heading */
     }
-  
+
     .text-content p {
-        font-size: 0.9rem; /* Paragraph text size */
-        margin-bottom: 1rem; /* Space between paragraphs */
+        font-size: 0.9rem;
+        /* Paragraph text size */
+        margin-bottom: 1rem;
+        /* Space between paragraphs */
+        width: 15rem;
     }
-  
+
     .section-image {
-        width: 80%; /* Adjust image width for better layout */
-        max-width: 350px; /* Slightly larger max size */
-        order: -1; /* Move the image above the text */
+        width: 80%;
+        /* Adjust image width for better layout */
+        max-width: 350px;
+        /* Slightly larger max size */
+        order: -1;
+        /* Move the image above the text */
     }
 }

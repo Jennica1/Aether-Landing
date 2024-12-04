@@ -11,11 +11,13 @@ export default function Header() {
           src="/AetherLogo.png"
           width={100}
           height={100}
-          alt=""
+          alt="Logo"
         />
 
         <div className="nav-links">
-          <p>Blog</p>
+          <p>
+            <Link href="https://aether-blog.vercel.app/">Blog</Link>
+          </p>
           <p>
             <Link href="/investor">Work With Us</Link>
           </p>

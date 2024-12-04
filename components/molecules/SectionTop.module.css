@@ -3,16 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
+    padding-left: 8rem;
     flex-wrap: wrap;
-   
 }
-
 
 .left,
 .right {
     flex: 1;
     padding: 0 20px;
-   
 }
 
 .left-content {
@@ -24,7 +22,7 @@
     font-size: 1.3rem;
 }
 
-/* Gradient text */
+
 .words-cont {
     display: flex;
     flex-direction: column;
@@ -33,7 +31,7 @@
 .words-cont p {
     font-family: 'Italiana', serif;
     font-weight: normal;
-    font-size: 5rem;
+    font-size: 6rem; 
     color: transparent;
     background: linear-gradient(130deg, #196082 0%, #08415C 100%);
     -webkit-background-clip: text;
@@ -41,14 +39,14 @@
     text-shadow: 0 4.24px 4.24px rgba(0, 0, 0, 0.3);
 }
 
-/* Button container */
+
 .btn-cont {
     display: flex;
     gap: 20px;
     align-items: center;
     margin: 3.5rem 0;
     flex-wrap: wrap;
-    /* Allows buttons to wrap on smaller screens */
+    
 }
 
 .btn-cont button {
@@ -80,82 +78,84 @@
 
 .right img {
     max-width: 100%;
+    height: auto;  
+    object-fit: contain;  
 }
 
-/* Media Queries for Responsiveness */
 
-/* For screens smaller than 1024px */
 @media (max-width: 1024px) {
     .main-container {
         flex-direction: column;
-        /* Stack elements vertically */
+      
         padding: 0 30px;
-        /* Reduce padding */
+       
     }
 
     .left,
     .right {
         padding: 20px 0;
-        /* Add vertical padding */
+      
     }
 
     .words-cont p {
-        font-size: 4rem;
-        /* Reduce font size for better fit */
+        font-size: 5rem; 
     }
 
     .btn-cont {
         justify-content: flex-start;
-        /* Keep buttons left-aligned */
+       
         gap: 15px;
-        /* Adjust spacing */
+     
     }
 }
 
-/* For screens smaller than 768px */
+
 @media (max-width: 768px) {
     .main-container {
         padding: 0 15px;
-        /* Further reduce padding */
+        
     }
 
     .words-cont p {
-        font-size: 3rem;
-        /* Further reduce text size */
+        font-size: 4em !important; 
     }
+    
 
     .left-content p {
         font-size: 1.1rem;
-        /* Smaller font for readability */
+        
     }
 
     .btn-cont {
         justify-content: flex-start;
-        /* Keep buttons left-aligned */
+        
         flex-direction: row;
-        /* Ensure buttons stay in a row */
+        
         flex-wrap: wrap;
     }
 
     .btn-cont button {
         padding: 12px 20px;
-        /* Smaller buttons */
+        
         font-size: 0.9rem;
+    }
+
+    .right img {
+        object-fit: contain;  
     }
 }
 
-/* For screens smaller than 480px */
+
 @media (max-width: 480px) {
     .words-cont p {
-        font-size: 2.5rem;
-        /* Optimize for very small screens */
+        font-size: 4rem; 
     }
 
     .btn-cont {
         gap: 10px;
-        /* Tighten spacing */
+        
         flex-direction: row;
-        /* Keep buttons in a row */
+       
     }
 
     .btn-cont button {

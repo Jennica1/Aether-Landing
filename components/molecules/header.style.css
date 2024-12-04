@@ -22,6 +22,7 @@
     flex: 2;
     justify-content: flex-start;
     min-width: 200px;
+    margin-left: 10px;
     /* Prevents collapsing on smaller screens */
 }
 

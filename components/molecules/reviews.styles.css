@@ -1,12 +1,14 @@
 .review-container {
     text-align: center;
     padding: 2rem 1rem;
+    background: #08415C;
 }
 
 .core-values {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .value-section {
@@ -49,6 +51,7 @@
 .text-content h3,
 .text-content p {
     font-size: 130%;
+    color: white;
 }
 
 h3 {

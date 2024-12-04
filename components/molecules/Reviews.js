@@ -16,7 +16,7 @@ export default function Reviews() {
             with confidence.
           </p>
         </div>
-        <img src="/clarity.png" alt="Clarify" className="section-image" />
+        <img src="/clarify2.png" alt="Clarify" className="section-image" />
       </div>
 
       {/* Summarize Section (Image on left, Text on right) */}
@@ -29,7 +29,7 @@ export default function Reviews() {
             so you can focus on what matters most.
           </p>
         </div>
-        <img src="/summary.png" alt="Summarize" className="section-image" />
+        <img src="/summary2.png" alt="Summarize" className="section-image" />
       </div>
 
       {/* Streamline Section (Text on left, Image on right) */}
@@ -43,7 +43,11 @@ export default function Reviews() {
             more productive and less stressful.
           </p>
         </div>
-        <img src="/streamline.png" alt="Streamline" className="section-image" />
+        <img
+          src="/streamline2.png"
+          alt="Streamline"
+          className="section-image"
+        />
       </div>
     </div>
   );

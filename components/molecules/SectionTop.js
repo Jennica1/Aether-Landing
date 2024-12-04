@@ -21,13 +21,12 @@ export default function SectionTop() {
             <div className={styles["btn-cont"]}>
               <button>Get Started</button>
               <p>Learn More</p>
-              {/* <Image src="/arrowdown.png" alt="Learn More icon" width={15} height={10} /> */}
             </div>
           </div>
         </div>
         <div className={styles["right"]}>
           <Image
-            src="/Phone.png"
+            src="/aethergif.gif"
             width={700}
             height={450}
             alt="phone"

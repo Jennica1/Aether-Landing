@@ -14,7 +14,7 @@
 }
 
 .left-content {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .left-content p {
@@ -31,7 +31,7 @@
 .words-cont p {
     font-family: 'Italiana', serif;
     font-weight: normal;
-    font-size: 6rem; 
+    font-size: 6rem;
     color: transparent;
     background: linear-gradient(130deg, #196082 0%, #08415C 100%);
     -webkit-background-clip: text;
@@ -46,7 +46,7 @@
     align-items: center;
     margin: 3.5rem 0;
     flex-wrap: wrap;
-    
+
 }
 
 .btn-cont button {
@@ -78,34 +78,34 @@
 
 .right img {
     max-width: 100%;
-    height: auto;  
-    object-fit: contain;  
+    height: auto;
+    object-fit: contain;
 }
 
 
 @media (max-width: 1024px) {
     .main-container {
         flex-direction: column;
-      
+
         padding: 0 30px;
-       
+
     }
 
     .left,
     .right {
         padding: 20px 0;
-      
+
     }
 
     .words-cont p {
-        font-size: 5rem; 
+        font-size: 5rem;
     }
 
     .btn-cont {
         justify-content: flex-start;
-       
+
         gap: 15px;
-     
+
     }
 }
 
@@ -113,49 +113,49 @@
 @media (max-width: 768px) {
     .main-container {
         padding: 0 15px;
-        
+
     }
 
     .words-cont p {
-        font-size: 4em !important; 
+        font-size: 4em !important;
     }
-    
+
 
     .left-content p {
         font-size: 1.1rem;
-        
+
     }
 
     .btn-cont {
         justify-content: flex-start;
-        
+
         flex-direction: row;
-        
+
         flex-wrap: wrap;
     }
 
     .btn-cont button {
         padding: 12px 20px;
-        
+
         font-size: 0.9rem;
     }
 
     .right img {
-        object-fit: contain;  
+        object-fit: contain;
     }
 }
 
 
 @media (max-width: 480px) {
     .words-cont p {
-        font-size: 4rem; 
+        font-size: 4rem;
     }
 
     .btn-cont {
         gap: 10px;
-        
+
         flex-direction: row;
-       
+
     }
 
     .btn-cont button {

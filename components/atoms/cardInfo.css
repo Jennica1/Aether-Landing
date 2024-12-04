@@ -1,7 +1,5 @@
-/* Ensure the parent container behaves correctly */
 .image-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -14,21 +12,38 @@
   margin-right: auto;
 }
 
+
 .image-container>div {
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.caption {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-image {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+
 }
 
 @media (max-width: 768px) {
   .image-container {
     padding: 0 20px;
+    width: 100%;
   }
 
   .caption {
-    display: block;
     width: 100%;
-    max-width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
-    box-sizing: border-box;
   }
 }

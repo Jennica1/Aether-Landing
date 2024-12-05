@@ -9,15 +9,6 @@ export default function Info() {
       <div>
         <CardInfo />
       </div>
-      <div className={styles.imageContainer}>
-        <Image
-          src="/section5 .png"
-          alt="Section Illustration"
-          layout="responsive"
-          width={100}
-          height={30}
-        />
-      </div>
     </div>
   );
 }

@@ -38,12 +38,17 @@
 @media (max-width: 768px) {
   .image-container {
     padding: 0 20px;
-    width: 100%;
+    width: 40%;
   }
 
   .caption {
     width: 100%;
     text-align: left;
-    font-size: 18px;
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  .card-image {
+    scale: 60%;
   }
 }

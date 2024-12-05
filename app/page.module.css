@@ -89,53 +89,73 @@
 
 @media (max-width: 768px) {
   .main {
-    padding: 40px 10px; /* Slightly reduce padding */
+    padding: 40px 10px;
+    /* Slightly reduce padding */
   }
 
   .row {
-    flex-direction: column; /* Stack columns vertically */
-    gap: 20px; /* Reduce gap */
+    flex-direction: column;
+    /* Stack columns vertically */
+    gap: 20px;
+    /* Reduce gap */
   }
 
   .column {
-    font-size: 0.9rem; /* Smaller text size */
-    margin: 10px 0; /* Adjust vertical margin */
-    padding: 10px; /* Reduce padding */
-    text-align: center; /* Center-align text */
+    font-size: 0.9rem;
+    /* Smaller text size */
+    margin: 10px 0;
+    /* Adjust vertical margin */
+    padding: 10px;
+    /* Reduce padding */
+    text-align: center;
+    /* Center-align text */
   }
 
   .section-image {
-    order: -1; /* Place image above text */
-    width: 80%; /* Adjust image size for smaller screens */
+    order: -1;
+    /* Place image above text */
+    width: 80%;
+    /* Adjust image size for smaller screens */
     max-width: 300px;
-    margin-bottom: 1rem; /* Add space below the image */
+    margin-bottom: 1rem;
+    /* Add space below the image */
   }
 
   .team-cont {
-    flex-direction: column; /* Stack team elements */
+    flex-direction: column;
+    /* Stack team elements */
   }
 }
 
 /* For screens smaller than 480px */
 @media (max-width: 480px) {
   .main {
-    padding: 20px 5px; /* Minimal padding for very small screens */
+    padding: 20px 5px;
+    /* Minimal padding for very small screens */
   }
 
   .row {
     flex-direction: column;
-    gap: 10px; /* Reduce gap further */
+    gap: 10px;
+    /* Reduce gap further */
   }
 
   .column {
-    font-size: 0.8rem; /* Smaller text for readability */
+    font-size: 0.8rem;
+    /* Smaller text for readability */
     margin: 5px 0;
-    padding: 8px; /* Tighten padding */
+    padding: 8px;
+    /* Tighten padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .section-image {
-    width: 100%; /* Use full width for images */
-    max-width: 250px; /* Limit maximum size */
+    width: 100%;
+    /* Use full width for images */
+    max-width: 250px;
+    /* Limit maximum size */
   }
 
   .footer {
@@ -144,6 +164,14 @@
 
   .smIcon {
     gap: 5px;
-    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-bottom: 10px;
   }
 }

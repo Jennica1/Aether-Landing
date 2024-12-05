@@ -96,7 +96,7 @@ h3 {
     }
 
     .section-image {
-        width: 80%;
+        width: 50%;
         /* Adjust image width for better layout */
         max-width: 350px;
         /* Slightly larger max size */

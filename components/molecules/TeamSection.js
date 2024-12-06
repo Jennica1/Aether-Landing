@@ -180,7 +180,10 @@ export default function Team() {
             <p className="team-name">Sandy Ly</p>
             <p className="team-name">Designer</p>
             <a
+
+
               href="https://www.linkedin.com/in/boisan-sandy-ly/"
+
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -203,7 +206,7 @@ export default function Team() {
             <p className="team-name">Jonathan Santiagual</p>
             <p className="team-name">Designer</p>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/zalida-khan/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -39,7 +39,9 @@
 .team-cont {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .line {

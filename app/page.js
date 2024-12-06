@@ -65,7 +65,9 @@ export default function Home() {
           </ul>
         </div>
         <div className={styles["team-cont"]}>
-          <p>Designed and developed by Aether Team ©2024</p>
+          <p>Designed and developed by Aether Team </p>
+          <br></br>
+          <p>©2024</p>
         </div>
       </footer>
     </div>

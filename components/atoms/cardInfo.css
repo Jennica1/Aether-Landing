@@ -37,18 +37,29 @@
 
 @media (max-width: 768px) {
   .image-container {
-    padding: 0 20px;
-    width: 40%;
+    padding: 0 10px;
+    width: 100%; /* Allow container to take full width */
+    flex-direction: row; /* Keep items side by side */
+    align-items: center;
+    gap: 10px; /* Adjust gap for smaller screens */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+  }
+
+  .image-container > div {
+    flex: 1 1 calc(33.33% - 10px); /* Three items per row with a gap */
+    text-align: center; /* Center-align content inside each box */
+    margin: 10px 0; /* Add vertical spacing between rows */
   }
 
   .caption {
-    width: 100%;
-    text-align: left;
     font-size: 14px;
-    padding: 0 5px;
+    padding: 0 5px; /* Add padding for readability */
+    text-align: center; /* Center-align captions for consistency */
   }
 
   .card-image {
-    scale: 60%;
+    width: 100px; /* Set consistent width for images */
+    height: 100px; /* Maintain aspect ratio */
+    object-fit: cover;
   }
 }

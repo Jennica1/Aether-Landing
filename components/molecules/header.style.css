@@ -115,11 +115,12 @@
 
     .nav-links {
         display: flex;
-        gap: 11px !important; /* Increased gap */
+        gap: 10px !important; /* Increased gap */
         flex: 1;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+        padding-right: 5px !important;
     }
 
     .nav-links p {

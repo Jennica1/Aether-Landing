@@ -125,16 +125,39 @@ export default function Team() {
           </div>
           <div className="team-member">
             <Image
-              src="/jon.png"
+              src="/zalida.png"
               alt="member's photo"
               width={100}
               height={100}
               className="team-photo"
             />
-            <p className="team-name">Jonathan Santiagual</p>
+            <p className="team-name">Zalida Khan</p>
             <p className="team-name">Designer</p>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/zalida-khan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/linkIn.png"
+                alt="linkedin icon"
+                width={25}
+                height={25}
+              />
+            </a>
+          </div>
+          <div className="team-member">
+            <Image
+              src="/kiana.png"
+              alt="member's photo"
+              width={100}
+              height={100}
+              className="team-photo"
+            />
+            <p className="team-name">Kiana Amini</p>
+            <p className="team-name">Designer</p>
+            <a
+              href="https://www.linkedin.com/in/kiana-amini-0509592aa/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -171,39 +194,16 @@ export default function Team() {
           </div>
           <div className="team-member">
             <Image
-              src="/kiana.png"
+              src="/jon.png"
               alt="member's photo"
               width={100}
               height={100}
               className="team-photo"
             />
-            <p className="team-name">Kiana Amini</p>
+            <p className="team-name">Jonathan Santiagual</p>
             <p className="team-name">Designer</p>
             <a
-              href="www.linkedin.com/in/kiana-amini-0509592aa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/linkIn.png"
-                alt="linkedin icon"
-                width={25}
-                height={25}
-              />
-            </a>
-          </div>
-          <div className="team-member">
-            <Image
-              src="/zalida.png"
-              alt="member's photo"
-              width={100}
-              height={100}
-              className="team-photo"
-            />
-            <p className="team-name">Zalida Khan</p>
-            <p className="team-name">Designer</p>
-            <a
-              href="https://www.linkedin.com/in/zalida-khan-frontnd-developer/"
+              href="https://www.linkedin.com/in/your-profile"
               target="_blank"
               rel="noopener noreferrer"
             >

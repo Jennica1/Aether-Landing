@@ -120,13 +120,14 @@
         justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
+        white-space: unset;
     }
 
     .nav-links p {
         display: flex;
         align-items: center;
         gap: 6px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .btn-cont {

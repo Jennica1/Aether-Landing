@@ -16,7 +16,7 @@ export default function Header() {
 
         <div className="nav-links">
           <p>
-            <Link href="https://aether-blog.vercel.app/">Blog</Link>
+            <Link href="https://aether-blog.vercel.app/blog.html">Blog</Link>
           </p>
           <p>
             <Link href="/investor">Work With Us</Link>

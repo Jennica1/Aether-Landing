@@ -108,14 +108,14 @@
 
     .logo {
         flex: 0 0 auto;
-        margin-right: 20px;
+        margin-right: 15px;
         max-width: 50px;
         max-height: 40px;
     }
 
     .nav-links {
         display: flex;
-        gap: 15px !important; /* Increased gap */
+        gap: 11px !important; /* Increased gap */
         flex: 1;
         justify-content: flex-start;
         align-items: center;
@@ -126,16 +126,15 @@
         display: flex;
         align-items: center;
         gap: 6px;
-        white-space: nowrap;
         font-size: 12px;
     }
 
     .btn-cont {
         display: flex;
-        gap: 10px;
         align-items: center;
         justify-content: flex-end;
         margin-left: auto;
+        padding-top: 5px;
     }
 
     .btn-cont button {

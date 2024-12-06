@@ -18,12 +18,18 @@ export default function Team() {
             />
             <p className="team-name">Travor Tan</p>
             <p className="team-name">Developer</p>
-            <Image
-              src="/linkIn.png"
-              alt="linkedin icon"
-              width={25}
-              height={25}
-            />
+            <a
+              href="https://www.linkedin.com/in/parnelltse/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/linkIn.png"
+                alt="linkedin icon"
+                width={25}
+                height={25}
+              />
+            </a>
           </div>
           <div className="team-member">
             <Image
@@ -105,7 +111,7 @@ export default function Team() {
             <p className="team-name">Celine Wang</p>
             <p className="team-name">Developer</p>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/celine-wang-22a475172"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -174,7 +180,7 @@ export default function Team() {
             <p className="team-name">Kiana Amini</p>
             <p className="team-name">Designer</p>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/kiana-amini-0509592aa/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -197,7 +203,7 @@ export default function Team() {
             <p className="team-name">Zalida Khan</p>
             <p className="team-name">Designer</p>
             <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/zalida-khan/"
               target="_blank"
               rel="noopener noreferrer"
             >

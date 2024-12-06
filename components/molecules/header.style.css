@@ -117,9 +117,10 @@
         display: flex;
         gap: 10px !important; /* Increased gap */
         flex: 1;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
+        padding-right: 4px !important;
     }
 
     .nav-links p {

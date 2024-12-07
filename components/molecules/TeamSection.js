@@ -206,7 +206,7 @@ export default function Team() {
             <p className="team-name">Jonathan Santiagual</p>
             <p className="team-name">Designer</p>
             <a
-              href="https://www.linkedin.com/in/zalida-khan/"
+              href="https://www.linkedin.com/in/jonathan-santiaguel-931637189/"
               target="_blank"
               rel="noopener noreferrer"
             >

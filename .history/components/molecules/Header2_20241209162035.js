@@ -19,9 +19,7 @@ export default function Header2() {
             <Link href="/investor">Work With Us</Link>
       
           {/* <Link href="/">Products</Link> */}
-          <p>
           <Link href="/">About Us</Link>
-          </p>
         </div>
 
         {/* <div className="btn-cont">

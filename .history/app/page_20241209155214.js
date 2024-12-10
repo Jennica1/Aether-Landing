@@ -9,9 +9,7 @@ import CTA from "@/components/atoms/CTA";
 import Team from "@/components/molecules/TeamSection";
 
 export default function Home() {
-
   return (
-
     <div className={styles.page}>
       <Header />
       <main className={styles.main}>
@@ -30,7 +28,6 @@ export default function Home() {
             <li>
               <Link href="/investor">Work With Us</Link>
             </li>
-            <li>Contact Us</li>
           </ul>
           <ul className={styles.column}>
             <li>About Aether</li>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./header.style.css";
 import Link from "next/link";
 
-export default function Header2() {
+export default function Header() {
   return (
     <>
       <div className="header">
@@ -11,17 +11,20 @@ export default function Header2() {
           src="/AetherLogo.png"
           width={100}
           height={100}
-          alt=""
+          alt="Logo"
         />
-        <div className="nav-links">
-          <p>Blog</p>
 
+        <div className="nav-links">
+          <p>
+            <Link href="https://aether-blog.vercel.app/blog.html">Blog</Link>
+          </p>
+          <p>
             <Link href="/investor">Work With Us</Link>
-      
-          {/* <Link href="/">Products</Link> */}
+          </p>
           <p>
           <Link href="/">About Us</Link>
           </p>
+          <p>Contact Us</p> */}
         </div>
 
         {/* <div className="btn-cont">

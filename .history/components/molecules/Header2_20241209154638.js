@@ -15,18 +15,16 @@ export default function Header2() {
         />
         <div className="nav-links">
           <p>Blog</p>
-
-            <Link href="/investor">Work With Us</Link>
-      
-          {/* <Link href="/">Products</Link> */}
           <p>
-          <Link href="/">About Us</Link>
+            <Link href="/investor">Work With Us</Link>
           </p>
+          <Link href="/">Products</Link>
+          <p>About Us</p>
         </div>
 
-        {/* <div className="btn-cont">
+        <div className="btn-cont">
           <button>Get Started</button>
-        </div> */}
+        </div>
       </div>
     </>
   );

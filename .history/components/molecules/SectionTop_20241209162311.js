@@ -19,8 +19,8 @@ export default function SectionTop() {
             </p>
 
             <div className={styles["btn-cont"]}>
-              <button >Get Started</button>
-              <a href="https://aether-blog.vercel.app/blog.html"><p>Learn More</p></a>
+              <a href="https://aether-blog.vercel.app/blog.html"><button >Get Started</button></a>
+              <p>Learn More</p>
             </div>
           </div>
         </div>

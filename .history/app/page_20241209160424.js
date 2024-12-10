@@ -10,6 +10,10 @@ import Team from "@/components/molecules/TeamSection";
 
 export default function Home() {
 
+  <head>
+    <title>Landing page</title>
+    <link rel="icon" href="./image/favicon.ico"/>
+  </head>
   return (
 
     <div className={styles.page}>

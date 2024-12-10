@@ -9,9 +9,7 @@ import CTA from "@/components/atoms/CTA";
 import Team from "@/components/molecules/TeamSection";
 
 export default function Home() {
-
   return (
-
     <div className={styles.page}>
       <Header />
       <main className={styles.main}>

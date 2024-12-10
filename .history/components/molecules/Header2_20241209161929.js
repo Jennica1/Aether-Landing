@@ -15,13 +15,11 @@ export default function Header2() {
         />
         <div className="nav-links">
           <p>Blog</p>
-
+          {/* <p>
             <Link href="/investor">Work With Us</Link>
-      
+          </p> */}
           {/* <Link href="/">Products</Link> */}
-          <p>
           <Link href="/">About Us</Link>
-          </p>
         </div>
 
         {/* <div className="btn-cont">
